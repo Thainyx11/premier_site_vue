@@ -2,6 +2,8 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Nav from './components/Nav.vue'
 import PrimaryButton from './components/PrimaryButton.vue'
+import Footer from './components/Footer.vue'
+
 </script>
 
 <template>
@@ -14,6 +16,7 @@ import PrimaryButton from './components/PrimaryButton.vue'
     Hello world!
   </h1>
   <PrimaryButton>Click !</PrimaryButton>
+  <Footer />
 </template>
 
 <style scoped>
